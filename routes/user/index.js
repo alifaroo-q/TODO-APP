@@ -19,7 +19,7 @@ router.get('/', (req, res) => {
         }
 
         if (Object.keys(results).length === 0) {
-            res.status(400).json({code: 1, message: `user with ${email} does not exist`});
+            res.status(400).json({code: 1, message: `user with email '${email}' does not exist`});
         } else {
             const isCorrect = bcrypt.compareSync(password, results[0].password);
             if (!isCorrect) {

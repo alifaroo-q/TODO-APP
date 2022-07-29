@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d074fe09-e6a4-4ea5-b8e5-c4be1f5c4609" name="Changes" comment="create signup page" />
+    <list default="true" id="d074fe09-e6a4-4ea5-b8e5-c4be1f5c4609" name="Changes" comment="applied few styles on todo page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,7 +124,7 @@
       <workItem from="1659094356590" duration="4495000" />
       <workItem from="1659105537113" duration="6596000" />
       <workItem from="1659115104400" duration="357000" />
-      <workItem from="1659115505744" duration="11000" />
+      <workItem from="1659115505744" duration="3302000" />
     </task>
     <task id="LOCAL-00001" summary="initial project structure">
       <created>1657998220905</created>
@@ -229,7 +238,77 @@
       <option name="project" value="LOCAL" />
       <updated>1659115410633</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="initial project structure">
+      <created>1659115575698</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115575698</updated>
+    </task>
+    <task id="LOCAL-00018" summary="create database module using msql2 npm package">
+      <created>1659115678777</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115678777</updated>
+    </task>
+    <task id="LOCAL-00019" summary="created main login page">
+      <created>1659115705008</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115705009</updated>
+    </task>
+    <task id="LOCAL-00020" summary="created signup page">
+      <created>1659115730213</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115730214</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added login page logic">
+      <created>1659115745336</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115745336</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added todo creation, deletion, reading, and updating logic">
+      <created>1659115812511</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115812511</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added main sever and router handlers">
+      <created>1659115841742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115841742</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create api routes for handling users">
+      <created>1659115868180</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115868180</updated>
+    </task>
+    <task id="LOCAL-00025" summary="created api routes for handling todos">
+      <created>1659115888896</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115888896</updated>
+    </task>
+    <task id="LOCAL-00026" summary="applied few styles on todo page">
+      <created>1659115908861</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659115908861</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,10 +340,20 @@
     <MESSAGE value="added ability to mark todos as completed" />
     <MESSAGE value="added ability to strike through the text of todos that are completed" />
     <MESSAGE value="added ability to update existing todos" />
-    <MESSAGE value="initial project structure" />
     <MESSAGE value="create database module" />
     <MESSAGE value="create main login page" />
     <MESSAGE value="create signup page" />
-    <option name="LAST_COMMIT_MESSAGE" value="create signup page" />
+    <MESSAGE value="initial project structure" />
+    <MESSAGE value="create database module using msql2 npm package" />
+    <MESSAGE value="created main login page" />
+    <MESSAGE value="created signup page" />
+    <MESSAGE value="added login page logic" />
+    <MESSAGE value="created todo page logic" />
+    <MESSAGE value="added todo creation, deletion, reading, and updating logic" />
+    <MESSAGE value="added main sever and router handlers" />
+    <MESSAGE value="create api routes for handling users" />
+    <MESSAGE value="created api routes for handling todos" />
+    <MESSAGE value="applied few styles on todo page" />
+    <option name="LAST_COMMIT_MESSAGE" value="applied few styles on todo page" />
   </component>
 </project>

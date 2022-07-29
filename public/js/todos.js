@@ -19,9 +19,9 @@ window.addEventListener('load', async () => {
                 addTodo(todo['todo'], todo['id'], todo['isDone']);
 
                 document.getElementById(todo['id']).querySelector(".li-close")
-                    .addEventListener("click", () => {
+                    .addEventListener("click", async () => {
                         document.getElementById(todo['id']).remove();
-                        fetch(`/api/todos/${todo['id']}`, {method: 'DELETE'}).then(() => {});
+                        await fetch(`/api/todos/${todo['id']}`, {method: 'DELETE'}).then(() => {});
                     });
 
                 document.getElementById(todo['id']).querySelector(".li-edit")
@@ -40,7 +40,7 @@ window.addEventListener('load', async () => {
                         document.getElementById(`${todo['id']}`).appendChild(update);
 
                         document.getElementById(`${todo['id']}`).querySelector(".btn-update")
-                            .addEventListener("click", () => {
+                            .addEventListener("click", async () => {
 
                                 const updatedTodo = document.getElementById(`${todo['id']}`)
                                     .querySelector(".newTodoTxt").value
@@ -54,7 +54,7 @@ window.addEventListener('load', async () => {
                                 };
 
                                 if (!(updatedTodo === todo['todo'])) {
-                                    fetch("/api/todos", data).then(() => {});
+                                    await fetch("/api/todos", data).then(() => {});
                                     document.getElementById(`todo-text-${todo['id']}`).innerText = updatedTodo;
                                 }
 
@@ -65,7 +65,7 @@ window.addEventListener('load', async () => {
                     });
 
                 const checkBtn = document.getElementById(`done-${todo['id']}`);
-                checkBtn.addEventListener("click", () => {
+                checkBtn.addEventListener("click", async () => {
 
                     const data = {
                         method: 'PATCH',
@@ -86,7 +86,7 @@ window.addEventListener('load', async () => {
                         data['body'] = JSON.stringify({id: todo['id'], done: 0})
                     }
 
-                    fetch("/api/todos", data).then(() => {});
+                    await fetch("/api/todos", data).then(() => {});
 
                 });
             });
@@ -154,7 +154,7 @@ const loadUser = () => {
     if (params.has('user')) {
         user = params.get('user');
     } else {
-        user = 'default';
+        location.replace("/");
     }
 
     let h5 = document.createElement('h5');
