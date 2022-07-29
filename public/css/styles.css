@@ -1,0 +1,40 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#todo-txt {
+    width: 600px;
+    margin-right: 5px;
+}
+
+.todo-container {
+    display: inline;
+}
+
+.li-close {
+    font-weight: bold;
+    border: none;
+    opacity: .5;
+    background-color: transparent;
+    transition: all 100ms linear;
+}
+
+.li-close:hover {
+    opacity: 1;
+}
+
+.li-edit {
+    font-weight: bold;
+    border: none;
+    opacity: .5;
+    background-color: transparent;
+    transition: all 100ms linear;
+}
+
+.li-edit:hover {
+    opacity: 1;
+}
+
+.strike {
+    text-decoration: line-through;
+}
