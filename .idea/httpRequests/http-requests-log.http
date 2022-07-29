@@ -1,0 +1,8 @@
+GET http://localhost:3000/api/users?email=alifarooq122@gmail.com&password=ali123
+
+###
+
+GET http://localhost:3000/api/users?email=alifarooq122@gmail.com&password=ali123
+
+###
+
