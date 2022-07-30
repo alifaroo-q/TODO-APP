@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d074fe09-e6a4-4ea5-b8e5-c4be1f5c4609" name="Changes" comment="applied few styles on todo page">
+    <list default="true" id="d074fe09-e6a4-4ea5-b8e5-c4be1f5c4609" name="Changes" comment="fixed few bugs in login page">
+      <change afterPath="$PROJECT_DIR$/tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/todos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alifa\Documents\Todo-App" />
       <recent name="C:\Users\alifa\IdeaProjects\Test Project" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -124,7 +124,9 @@
       <workItem from="1659094356590" duration="4495000" />
       <workItem from="1659105537113" duration="6596000" />
       <workItem from="1659115104400" duration="357000" />
-      <workItem from="1659115505744" duration="3302000" />
+      <workItem from="1659115505744" duration="3427000" />
+      <workItem from="1659176378811" duration="1514000" />
+      <workItem from="1659180161719" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="initial project structure">
       <created>1657998220905</created>
@@ -308,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659115908861</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fixed few bugs in login page">
+      <created>1659120773197</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659120773197</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +338,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="added nodemon" />
     <MESSAGE value="added /users post endpoint to get first_name and last_name" />
     <MESSAGE value="added password hashing &amp; terms agreement functionality" />
     <MESSAGE value="made single responsibility for api and handled error messages" />
@@ -354,6 +362,7 @@
     <MESSAGE value="create api routes for handling users" />
     <MESSAGE value="created api routes for handling todos" />
     <MESSAGE value="applied few styles on todo page" />
-    <option name="LAST_COMMIT_MESSAGE" value="applied few styles on todo page" />
+    <MESSAGE value="fixed few bugs in login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed few bugs in login page" />
   </component>
 </project>
